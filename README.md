@@ -115,8 +115,6 @@ module "eks" {
   spot_termination_handler_chart_repo      = "https://aws.github.io/eks-charts"
   spot_termination_handler_chart_version   = "0.9.1"
   spot_termination_handler_chart_namespace = "kube-system"
-
-  iac_environment_tag = local.iac_environment_tag
 }
 ```
 ### Explaining the complete example above step by step:
