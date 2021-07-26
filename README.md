@@ -81,7 +81,7 @@ provider "aws" {
 }
 
 module "my_cluster" {
-  source = "github.com/luispe/terraform-eks-module"
+  source = "github.com/<USER>/terraform-eks-module"
   
   # vpc_networking settings
   cidr_block     = "172.16.0.0/16"
